@@ -10,7 +10,7 @@ let sliceHeight = 30;
 let rows = 10;
 let cols = 10;
 
-let imageUrl1 = './images/img1.jpg';
+let imageUrl1 = './images/img1.jpeg';
 let container1 = document.querySelector('.image-container1');
 let slices1 = [];
 
@@ -34,7 +34,7 @@ for(let row = 0; row < rows; row++) {
     }
 }
 
-let imageUrl2 = './images/img2.jpg';
+let imageUrl2 = './images/img2.jpeg';
 let container2 = document.querySelector('.image-container2');
 let slices2 = [];
 
@@ -59,7 +59,7 @@ for(let row = 0; row < rows; row++) {
     }
 }
 
-let imageUrl3 = './images/img3.jpg';
+let imageUrl3 = './images/img3.jpeg';
 let container3 = document.querySelector('.image-container3');
 let slices3 = [];
 
@@ -84,7 +84,7 @@ for(let row = 0; row < rows; row++) {
     }
 }
 
-let imageUrl4 = './images/img4.jpg';
+let imageUrl4 = './images/img4.jpeg';
 let container4 = document.querySelector('.image-container4');
 let slices4 = [];
 
@@ -109,7 +109,7 @@ for(let row = 0; row < rows; row++) {
     }
 }
 
-let imageUrl5 = './images/img5.png';
+let imageUrl5 = './images/img5.jpeg';
 let container5 = document.querySelector('.image-container5');
 let slices5 = [];
 
@@ -184,3 +184,4 @@ animateButton.addEventListener('click', () => {
         title.innerHTML = 'Good Work!';
     }
 });
+
